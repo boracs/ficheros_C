@@ -1,0 +1,3 @@
+codigo          descripcion   unidades     precio 
+      1        toallas ninio        200         10
+      2          pompas agua        100         20

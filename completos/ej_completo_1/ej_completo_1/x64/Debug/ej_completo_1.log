@@ -1,0 +1,5 @@
+﻿  completos_1.c
+C:\Users\ASUS\Desktop\PROGRAMACION C++\ficheros_c\completos\ej_completo_1\ej_completo_1\completos_1.c(141,25): warning C4552: "+": el resultado de la expresión no se usa
+C:\Users\ASUS\Desktop\PROGRAMACION C++\ficheros_c\completos\ej_completo_1\ej_completo_1\completos_1.c(151,26): warning C4552: "-": el resultado de la expresión no se usa
+C:\Users\ASUS\Desktop\PROGRAMACION C++\ficheros_c\completos\ej_completo_1\ej_completo_1\completos_1.c(194,3): warning C4013: 'gets' sin definir; se supone que extern devuelve como resultado int
+  ej_completo_1.vcxproj -> C:\Users\ASUS\Desktop\PROGRAMACION C++\ficheros_c\completos\ej_completo_1\x64\Debug\ej_completo_1.exe

@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ASUS\\Desktop\\PROGRAMACION C\u002B\u002B\\ficheros_c\\secuenciales\\Secuenciales_ej_1\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{71C3420C-B4A0-4618-8ACC-7A962DF8B86D}|Secuenciales_ej_1\\Secuenciales_ej_1.vcxproj|C:\\Users\\ASUS\\Desktop\\PROGRAMACION C\u002B\u002B\\ficheros_c\\secuenciales\\Secuenciales_ej_1\\Secuenciales_ej_1\\plantilla.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{71C3420C-B4A0-4618-8ACC-7A962DF8B86D}|Secuenciales_ej_1\\Secuenciales_ej_1.vcxproj|solutionrelative:Secuenciales_ej_1\\plantilla.c||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "plantilla.c",
+              "DocumentMoniker": "C:\\Users\\ASUS\\Desktop\\PROGRAMACION C\u002B\u002B\\ficheros_c\\secuenciales\\Secuenciales_ej_1\\Secuenciales_ej_1\\plantilla.c",
+              "RelativeDocumentMoniker": "Secuenciales_ej_1\\plantilla.c",
+              "ToolTip": "C:\\Users\\ASUS\\Desktop\\PROGRAMACION C\u002B\u002B\\ficheros_c\\secuenciales\\Secuenciales_ej_1\\Secuenciales_ej_1\\plantilla.c",
+              "RelativeToolTip": "Secuenciales_ej_1\\plantilla.c",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000423|",
+              "WhenOpened": "2025-03-01T09:19:22.228Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

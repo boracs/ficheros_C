@@ -1,0 +1,4 @@
+    codigo     nombre      saldo 
+         1      borja          0 
+         1  vladimir         200 
+         3      vladi   20000000 

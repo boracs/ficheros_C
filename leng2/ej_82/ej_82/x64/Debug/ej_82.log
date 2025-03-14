@@ -1,0 +1,19 @@
+﻿  ej_82.c
+C:\Users\ASUS\Desktop\PROGRAMACION C++\plantilla\plantilla\ej_82.c(69,5): warning C4013: 'gets' sin definir; se supone que extern devuelve como resultado int
+C:\Users\ASUS\Desktop\PROGRAMACION C++\plantilla\plantilla\ej_82.c(142,13): warning C4473: "scanf_s": no se pasaron suficientes argumentos para la cadena de formato
+      C:\Users\ASUS\Desktop\PROGRAMACION C++\plantilla\plantilla\ej_82.c(142,13):
+      los marcadores de posición y sus parámetros esperan 2 argumentos variádicos, pero se proporcionaron 1
+      C:\Users\ASUS\Desktop\PROGRAMACION C++\plantilla\plantilla\ej_82.c(142,13):
+      el argumento variádico 2 que falta es requerido por la cadena de formato '%s'
+      C:\Users\ASUS\Desktop\PROGRAMACION C++\plantilla\plantilla\ej_82.c(142,13):
+      este argumento se utiliza como un tamaño de búfer
+  
+C:\Users\ASUS\Desktop\PROGRAMACION C++\plantilla\plantilla\ej_82.c(152,13): warning C4473: "scanf_s": no se pasaron suficientes argumentos para la cadena de formato
+      C:\Users\ASUS\Desktop\PROGRAMACION C++\plantilla\plantilla\ej_82.c(152,13):
+      los marcadores de posición y sus parámetros esperan 2 argumentos variádicos, pero se proporcionaron 1
+      C:\Users\ASUS\Desktop\PROGRAMACION C++\plantilla\plantilla\ej_82.c(152,13):
+      el argumento variádico 2 que falta es requerido por la cadena de formato '%s'
+      C:\Users\ASUS\Desktop\PROGRAMACION C++\plantilla\plantilla\ej_82.c(152,13):
+      este argumento se utiliza como un tamaño de búfer
+  
+  ej_82.vcxproj -> C:\Users\ASUS\Desktop\PROGRAMACION C++\ficheros_c\leng2\ej_82\x64\Debug\ej_82.exe

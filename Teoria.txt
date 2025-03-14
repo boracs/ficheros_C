@@ -1,0 +1,112 @@
+Podemos leer los ficheros de 3 maneras(Caracter a carácter , Caracter a carácter con formato,  Binario.)
+
+----------------------------------------------------------------
+
+ - Caractr a carácter
+	1-cojo el carácter                      char c = getc(nombre_puntero_a_fcihero); //nosotros hacemos getc() y no getche()
+	2-ecribo en fichero                     putc(c,puntero_fichero)
+	3- mientras no sea end of file (EOF)    while(c!=EOF)
+
+    * capturar caracteres por  teclado  y escribirlos en un archivo hasta introducir $
+	    do
+            {
+               ch=getc();
+               putc(ch,pf);
+            } 
+            while (ch!='$');
+
+    * leer los caracteres grabados en  el archivo y escribirlos en la pantalla:
+
+	   c=getc(pf);
+           while (c!=EOF)
+           {
+             printf(“%c”,c);
+             c=getc(pf);
+           }
+----------------------------------------------------------------
+
+ - Caracater a carácter con formato.
+
+		1* fprintf()  
+		2* fscanf()
+
+	
+
+	1* fprintf() :
+
+	do {
+		rewind(stdin);
+	        printf("Nombre: ");
+		gets(nombre);
+		printf("Dirección: ");
+		gets(direccion);
+		printf("Teléfono: ");
+		gets(tlf);
+		fprintf(pf, "%s,%s,%s\n", nombre, direccion, tlf);  //escribe con formato
+		printf("Desea escribir más datos?");
+		resp = toupper(getche());
+	} while (resp == 'S');
+
+
+	2* fscanf() :
+	
+	fscanf_s(pf, "%[a-z A-Z]", nombre, 30);
+	getc(pf);
+	fscanf_s(pf, "%[a-z A-Z0-9]", direccion, 30);
+	getc(pf);
+	fscanf_s(pf, "%[a-z A-Z]", tlf, 10);
+	getc(pf);
+	printf("%30s %30s %10s\n",nombre,direccion,tlf);
+	fscanf_s(pf, "%[a-z A-Z]", nombre,30);
+	while (!feof(pf))
+		{
+		getc(pf);
+		fscanf_s(pf, "%[a-z A-Z0-9]", direccion, 30);
+		getc(pf);
+		fscanf_s(pf, "%[0-9]", tlf, 10);
+		getc(pf);
+		printf("%30s %30s %10s\n", nombre, direccion, tlf);
+		fscanf_s(pf, "%[a-z A-Z]", nombre, 30);
+	}
+
+----------------------------------------------------------------
+
+ - Binario.
+
+		frwrite() escritura
+		fread()	lectura
+		fseek() posicionarme
+
+
+
+
+-----------------------------------------------------------------
+
+MODOS DE LECTURA
+
+Para abrir un fichero tengo distintas opciones dependiendo el modo en que lo abra;
+
+	 abrir	   fopen_s(&fichero_puntero, "nombre_archivo", "r"); 
+	 cerrar	   fclose(fichero_puntero)
+
+
+modos carácter a caracter:
+          r        abre archivo de texto para lectura Caractr a carácter
+          w        abre archivo de texto para escritura Caractr a carácter
+          a        añade informacion a un archivo de texto Caractr a carácter
+          r+       abre un archivo para leer/escribir Caractr a carácter
+          w+       crea un archivo para leer/escribir Caractr a carácter
+          a+       abre o crea archivo texto para leer/escribir Caractr a carácter
+
+modos carácter binario:
+
+ 	  rb        abre archivo de texto para lectura 
+          wb        abre archivo de texto para escritura 
+          ab        añade informacion a un archivo de texto
+          rb+       abre un archivo para leer/escribir
+          wb+       crea un archivo para leer/escribir 
+          ab+       abre o crea archivo texto para leer/escribir 
+
+
+
+
